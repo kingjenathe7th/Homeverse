@@ -1240,6 +1240,7 @@ img {
 .footer {
     background: var(--raisin-black-1);
     color: var(--white);
+
 }
 
 
@@ -1572,7 +1573,7 @@ img {
     /* FOOTER */
 
     .footer {
-        padding: 30px;
+        margin-bottom: 68px;
     }
 
     .company-info {
@@ -1585,6 +1586,7 @@ img {
 
     .footer-top-container {
         display: block;
+        padding: 30px;
     }
 
     .footer-brand {
