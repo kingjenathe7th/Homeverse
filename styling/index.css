@@ -2351,6 +2351,26 @@ img {
         min-width: calc(100%);
     }
 
+    .author-name>a {
+        font-size: var(--fs-5);
+    }
+
+    .property-cards .property-card-content {
+        padding: 30px 15px 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .property-card-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+        padding: 15px;
+    }
+
+    .property-card-item span {
+        font-size: 13px;
+    }
+
     /* SERVICES */
 
     .services .container {
