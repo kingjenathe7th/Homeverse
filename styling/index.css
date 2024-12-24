@@ -1236,9 +1236,8 @@ img {
 
 
 .footer {
-    background: var(--raisin-black-1);
+    background: #282B39;
     color: var(--white);
-
 }
 
 
@@ -1319,7 +1318,7 @@ img {
 }
 
 .footer-bottom {
-    background-color: var(--cadet);
+    background-color: #282B39;
     padding-block: 25px;
     text-align: center;
 }
