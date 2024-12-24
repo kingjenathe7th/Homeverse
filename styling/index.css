@@ -2319,6 +2319,7 @@ img {
 
     .about .container {
         display: block;
+        padding: 8px 40px;
     }
 
     .about-title {
@@ -2335,6 +2336,10 @@ img {
     }
 
     /* SERVICES */
+
+    .services .container {
+        padding: 8px 40px;
+    }
 
     .services-title {
         font-size: 24px;
@@ -2364,6 +2369,10 @@ img {
     }
 
     /* BLOGS */
+
+    .blogs .container {
+        padding: 30px;
+    }
 
     .blog-list {
         display: flex;
