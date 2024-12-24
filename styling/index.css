@@ -2347,12 +2347,18 @@ img {
         grid-template-columns: 1fr;
     }
 
+
+    .property-actions {
+        gap: 13px 13px;
+
+    }
+
     .property-list-scrollbar>li {
         min-width: calc(100%);
     }
 
     .author-name>a {
-        font-size: var(--fs-5);
+        font-size: 11px;
     }
 
     .property-cards .property-card-content {
@@ -2363,8 +2369,8 @@ img {
     .property-card-footer {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap-reverse;
         padding: 15px;
+        gap: 15px;
     }
 
     .property-card-item span {
