@@ -240,12 +240,10 @@ img {
 .header-bottom {
     position: absolute;
     background: var(--white);
-}
-
-.header-bottom {
-    position: absolute;
     width: 100%;
 }
+
+
 
 .navbar-top {
     display: flex;
@@ -813,12 +811,13 @@ img {
     font-weight: 400;
 }
 
+/* 
 .property-list {
     display: flex;
     align-items: flex-start;
     gap: 25px;
     padding-bottom: 60px;
-}
+} */
 
 
 
@@ -838,13 +837,12 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-
-
-}
-
-.property-card-item {
     color: rgb(93, 115, 126);
+
+
 }
+
+
 
 .property-card-footer {
     display: flex;
@@ -1413,12 +1411,6 @@ img {
 
 
 @media (min-width: 600px) {
-    .property-list {
-        gap: 25px;
-        margin-inline: -25px;
-        padding-inline: 25px;
-        scroll-padding-left: 25px;
-    }
 
     .property-list-scrollbar {
         gap: 25px;
@@ -1427,6 +1419,813 @@ img {
         scroll-padding-left: 25px;
     }
 
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        padding-inline: 15px;
+        margin-inline: auto;
+    }
+
+    .header-top .container {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-bottom {
+        position: relative;
+        padding-block: 25px;
+    }
+
+
+
+
+
+    .header-bottom .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 60px;
+    }
+
+
+
+    .header-bottom-buttons button span {
+        display: none;
+    }
+
+    .header-bottom-buttons .menu-bar {
+        display: grid;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*HERO  */
+
+    .hero {
+        padding-block: var(--section-padding);
+    }
+
+    .hero-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .hero-content {
+        margin-bottom: 0;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero-title h2 {
+        font-size: 50px;
+        line-height: 50px;
+        width: 100%;
+    }
+
+    .hero-text {
+        padding-left: 15px;
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+
+    /* PROPERTY */
+    .property-list-scrollbar>li {
+        min-width: calc(50% - 10px);
+    }
+
+    .property-card-price {
+        font-size: 18px;
+
+    }
+
+    .property-card-title a {
+        font-size: 18px;
+    }
+
+
+
+    .property-cards .property-card-text {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .property-card-item {
+        font-size: 15px;
+    }
+
+    .property-card-item span {
+        font-size: 15px;
+    }
+
+
+
+    /* ABOUT */
+
+    .about-banner>img {
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .about .container {
+        display: grid;
+        padding: 8px;
+    }
+
+    .about-title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .about-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* SERVICES */
+
+
+
+    .services-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+
+    /* AMINITIES */
+
+    .aminities .icon {
+        font-size: 33px;
+        padding: 20px;
+    }
+
+
+    .aminities-card .card-title {
+        font-size: 18px;
+
+    }
+
+    /* BLOGS */
+
+
+
+    .blog-list {
+        display: flex;
+
+    }
+
+    /* LOOKING */
+
+    .looking-card {
+        display: flex;
+    }
+
+
+    /* FOOTER */
+
+
+
+    .company-info {
+        display: flex;
+        flex-basis: 550px;
+    }
+
+
+
+
+
+    .footer-top-container {
+        display: flex;
+        padding: 30px;
+    }
+
+    .footer-brand {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* Desktops and Laptops */
+@media (max-width: 992px) {
+    .container {
+        padding-inline: 82px;
+        margin-inline: auto;
+    }
+
+    .header-top .container {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-bottom {
+        padding-block: 25px;
+    }
+
+
+
+
+
+    .header-bottom .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 60px;
+    }
+
+
+
+    .header-bottom-buttons button span {
+        display: none;
+    }
+
+    .header-bottom-buttons .menu-bar {
+        display: grid;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*HERO  */
+
+    .hero-container {
+        display: block;
+        padding: 8px 100px;
+    }
+
+    .hero-content {
+        margin-bottom: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero-title h2 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 67%;
+    }
+
+    .hero-text {
+        padding-left: 15px;
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+
+    /* PROPERTY */
+    .property-list-scrollbar>li {
+        min-width: calc(50% - 10px);
+    }
+
+    .property-card-price {
+        font-size: 18px;
+
+    }
+
+    .property-card-title a {
+        font-size: 18px;
+    }
+
+
+
+    .property-cards .property-card-text {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .property-card-item {
+        font-size: 15px;
+    }
+
+    .property-card-item span {
+        font-size: 15px;
+    }
+
+
+
+    /* ABOUT */
+
+    .about-banner>img {
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .about .container {
+        display: block;
+        padding: 8px 100px;
+    }
+
+    .about-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .about-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* SERVICES */
+
+    .services .container {
+        padding: 8px 100px;
+    }
+
+    .services-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-list>*:nth-child(3) {
+        grid-column: 1 / -1;
+
+        justify-self: center;
+
+    }
+
+
+
+    /* AMINITIES */
+
+    .aminities .container {
+        padding: 8px 100px;
+    }
+
+
+
+    .aminities-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 20px;
+    }
+
+    .aminities-list>li {
+        width: calc(33.33% - 13.33px);
+    }
+
+
+    .aminities-card .card-title {
+        font-size: 14px;
+
+    }
+
+    /* BLOGS */
+
+    .blogs .container {
+        padding: 80px;
+    }
+
+    .blog-list {
+        display: flex;
+
+    }
+
+    /* LOOKING */
+
+    .looking-card {
+        display: grid;
+        place-content: center;
+        place-items: center;
+        text-align: center;
+    }
+
+
+    /* FOOTER */
+
+
+
+    .company-info {
+        display: flex;
+    }
+
+
+
+    .footer-top-container {
+        display: block;
+        padding: 30px 100px;
+    }
+
+    .footer-brand {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding-inline: 15px;
+    }
+
+    .header-top .container {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+    .header-bottom .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-bottom-buttons button {
+        box-shadow: none;
+    }
+
+    .header-bottom-buttons button span {
+        display: block;
+    }
+
+    .header-bottom-buttons .menu-bar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*HERO  */
+
+    .hero-container {
+        display: block;
+        padding: 22px;
+    }
+
+    .hero-content {
+        margin-bottom: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero-title h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .hero-text {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+
+    /* PROPERTY */
+    .property-list-scrollbar>li {
+        min-width: calc(50% - 10px);
+    }
+
+    .property-card-price {
+        font-size: 18px;
+
+    }
+
+    .property-card-title a {
+        font-size: 18px;
+    }
+
+
+
+    .property-cards .property-card-text {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .property-card-item {
+        font-size: 15px;
+    }
+
+    .property-card-item span {
+        font-size: 15px;
+    }
+
+
+
+    /* ABOUT */
+
+    .about-banner>img {
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .about .container {
+        display: block;
+    }
+
+    .about-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .about-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* SERVICES */
+
+    .services-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-list>*:nth-child(3) {
+        grid-column: 1 / -1;
+
+        justify-self: center;
+
+    }
+
+
+
+    /* AMINITIES */
+
+    .aminities .container {
+        padding-inline: 15px;
+    }
+
+    /* .aminities-list {
+        grid-template-columns: 1fr 1fr;
+    } */
+
+
+    .aminities-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 20px;
+    }
+
+    .aminities-list>li {
+        width: calc(33.33% - 13.33px);
+    }
+
+
+
+
+
+
+
+
+    .aminities-card .card-title {
+        font-size: 14px;
+
+    }
+
+    /* BLOGS */
+
+    .blog-list {
+        display: flex;
+
+    }
+
+    /* LOOKING */
+
+    .looking-card {
+        display: grid;
+        place-content: center;
+        place-items: center;
+        text-align: center;
+    }
+
+
+    /* FOOTER */
+
+
+
+    .company-info {
+        display: block;
+    }
+
+
+
+
+
+    .footer-top-container {
+        display: block;
+        padding: 30px;
+    }
+
+    .footer-brand {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    .container {
+        padding-inline: 15px;
+    }
+
+    .header-top .container {
+        padding-block: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+    .header-bottom-buttons {
+        position: fixed;
+        bottom: -1px;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-block: 15px 10px;
+        box-shadow: -2px 0 30px hsla(237, 71%, 52%, 0.2);
+        z-index: 3;
+        background-color: white;
+        width: 100%;
+    }
+
+    .header-bottom-buttons button {
+        box-shadow: none;
+    }
+
+    .header-bottom-buttons button span {
+        display: block;
+    }
+
+    .header-bottom-buttons .menu-bar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /*HERO  */
+
+    .hero .container {
+        display: block;
+        padding: 2px;
+    }
+
+    .hero-container {
+        display: block;
+        padding: 22px;
+    }
+
+    .hero-content {
+        margin-bottom: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero-title h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .hero-text {
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    /* ABOUT */
+
+    .about-banner>img {
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .about .container {
+        display: block;
+    }
+
+    .about-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .about-list {
+        grid-template-columns: 1fr;
+    }
+
+    .property-list-scrollbar>li {
+        min-width: calc(100%);
+    }
+
+    /* SERVICES */
+
+    .services-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .service-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* AMINITIES */
+
+    .aminities .container {
+        padding-inline: 15px;
+    }
+
+
+
+    .aminities-list>li {
+        width: calc(50% - 10px);
+    }
+
+    .aminities-card .card-title {
+        font-size: 14px;
+    }
+
+    /* BLOGS */
+
+    .blog-list {
+        display: flex;
+
+    }
+
+    /* LOOKING */
+
+    .looking-card {
+        display: block;
+    }
+
+
+    /* FOOTER */
+
+    .footer {
+        margin-bottom: 68px;
+    }
+
+    .company-info {
+        display: block;
+    }
+
+
+
+
+
+    .footer-top-container {
+        display: block;
+        padding: 30px;
+    }
+
+    .footer-brand {
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -1531,6 +2330,10 @@ img {
         grid-template-columns: 1fr;
     }
 
+    .property-list-scrollbar>li {
+        min-width: calc(100%);
+    }
+
     /* SERVICES */
 
     .services-title {
@@ -1548,8 +2351,12 @@ img {
         padding-inline: 15px;
     }
 
-    .aminities-list {
+    /* .aminities-list {
         grid-template-columns: 1fr 1fr;
+    } */
+
+    .aminities-list>li {
+        width: calc(50% - 10px);
     }
 
     .aminities-card .card-title {
