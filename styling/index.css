@@ -2310,6 +2310,12 @@ img {
         font-size: 12px;
     }
 
+    .hero-btn {
+        padding: 14px 28px;
+    }
+
+
+
     /* ABOUT */
 
     .about-banner>img {
