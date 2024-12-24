@@ -1672,7 +1672,7 @@ img {
 
     .hero-container {
         display: block;
-        padding: 8px 100px;
+        padding: 8px 60px;
     }
 
     .hero-content {
@@ -1708,6 +1708,10 @@ img {
 
     }
 
+    .property-title {
+        font-size: 30px;
+    }
+
     .property-card-title a {
         font-size: 18px;
     }
@@ -1738,7 +1742,7 @@ img {
 
     .about .container {
         display: block;
-        padding: 8px 100px;
+        padding: 8px 60px;
     }
 
     .about-title {
@@ -1753,7 +1757,7 @@ img {
     /* SERVICES */
 
     .services .container {
-        padding: 8px 100px;
+        padding: 8px 60px;
     }
 
     .services-title {
@@ -1777,7 +1781,7 @@ img {
     /* AMINITIES */
 
     .aminities .container {
-        padding: 8px 100px;
+        padding: 8px 60px;
     }
 
 
@@ -1802,7 +1806,7 @@ img {
     /* BLOGS */
 
     .blogs .container {
-        padding: 80px;
+        padding: 60px;
     }
 
     .blog-list {
@@ -1852,7 +1856,7 @@ img {
 
 @media (max-width: 768px) {
     .container {
-        padding-inline: 15px;
+        padding-inline: 25px;
     }
 
     .header-top .container {
@@ -1871,16 +1875,14 @@ img {
         justify-content: space-between;
     }
 
-    .header-bottom-buttons button {
-        box-shadow: none;
-    }
+
 
     .header-bottom-buttons button span {
-        display: block;
+        display: none;
     }
 
     .header-bottom-buttons .menu-bar {
-        display: block;
+        display: grid;
     }
 
     .menu {
@@ -1891,7 +1893,7 @@ img {
 
     .hero-container {
         display: block;
-        padding: 22px;
+        padding: 8px 40px;
     }
 
     .hero-content {
@@ -1955,6 +1957,7 @@ img {
 
     .about .container {
         display: block;
+        padding: 8px 40px;
     }
 
     .about-title {
@@ -1967,6 +1970,10 @@ img {
     }
 
     /* SERVICES */
+
+    .services .container {
+        padding: 8px 40px;
+    }
 
     .services-title {
         font-size: 24px;
@@ -2022,6 +2029,10 @@ img {
 
     /* BLOGS */
 
+    .blogs .container {
+        padding: 30px;
+    }
+
     .blog-list {
         display: flex;
 
@@ -2042,7 +2053,7 @@ img {
 
 
     .company-info {
-        display: block;
+        display: flex;
     }
 
 
