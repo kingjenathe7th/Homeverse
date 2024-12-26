@@ -1863,6 +1863,7 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
 
@@ -1872,6 +1873,7 @@ img {
     .header-bottom .container {
         display: flex;
         justify-content: space-between;
+        padding-inline: 25px;
     }
 
 
@@ -1942,7 +1944,26 @@ img {
     }
 
     .property-card-item span {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+
+    .author-name>a {
+        font-size: 13px;
+    }
+
+    .property-cards .property-card-content {
+        padding: 30px 15px 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+    .property-card-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        flex-wrap: wrap-reverse;
+        gap: 15px;
     }
 
 
@@ -2056,7 +2077,15 @@ img {
     }
 
 
+    .company-footer-link {
+        font-size: 14px;
+    }
 
+
+
+    .contact-link span {
+        font-size: 14px;
+    }
 
 
     .footer-top-container {
@@ -2171,6 +2200,25 @@ img {
 
     .property-list-scrollbar>li {
         min-width: calc(100%);
+    }
+
+
+    .author-name>a {
+        font-size: 11px;
+    }
+
+    .property-cards .property-card-content {
+        padding: 30px 15px 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+    .property-card-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        flex-wrap: wrap-reverse;
+        gap: 15px;
     }
 
     /* SERVICES */
@@ -2370,6 +2418,7 @@ img {
         display: flex;
         justify-content: space-between;
         padding: 15px;
+        flex-wrap: wrap-reverse;
         gap: 15px;
     }
 
@@ -2408,6 +2457,11 @@ img {
 
     .aminities-card .card-title {
         font-size: 14px;
+    }
+
+
+    .card-btn {
+        left: 37%;
     }
 
     /* BLOGS */
